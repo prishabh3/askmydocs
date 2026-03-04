@@ -1,45 +1,16 @@
 # AskMyDocs
 
-This project implements a Retrieval-Augmented Generation (RAG) system using FastAPI.
+This is a production-grade Retrieval-Augmented Generation (RAG) system.
 
-## Directory Structure
+## Project Structure
 
-The project is structured as follows:
+- **backend/**: Contains backend code and configuration.
+- **frontend/**: Contains frontend code and configuration.
+- **docker-compose.yml**: Docker configuration to run the application.
+- **ci/**: CI/CD configuration files.
 
-```
-askmydocs/
-├── backend/
-│   ├── config.py
-│   └── main.py
-├── frontend/
-├── docker/
-├── data/
-├── scripts/
-└── tests/
-```
+## Getting Started
 
-## Installation
+1. Clone the repository.
+2. Run `docker-compose up` to start the application.
 
-### Requirements
-
-Make sure to have Python 3.8+ installed. You can install the dependencies using:
-
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-
-To run the FastAPI application, execute:
-
-```bash
-uvicorn backend.main:app --reload
-```
-
-## Tests
-
-To run the tests, use:
-
-```bash
-pytest tests/
-```
