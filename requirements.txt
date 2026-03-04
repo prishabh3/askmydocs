@@ -1,0 +1,5 @@
+fastapi==0.95.0
+qdrant-client==0.7.1
+elasticsearch==8.5.1
+sentence-transformers==0.4.1
+transformers==4.20.1
